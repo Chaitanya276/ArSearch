@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ar Search</string>
+    <string name="download_plane">Download Plane</string>
+    <string name="download">Download</string>
+    <string name="heritage_name">Heritage Name</string>
+    <string name="start_ar_scene">Start Ar Scene</string>
+    <string name="upload_glb">Upload GLB</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="update_database">Update Database</string>
+    <string name="enter_image_name">Enter Image Name</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="enter_file_name">Enter file name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_the_world"><b>Explore  The  World</b></string>
+    <string name="enjoy"><b>Enjoy Your Time</b></string>
+    <string name="adventure"><b>Find Your Adventure</b></string>
+    <string name="journey">A Journey Of A Thousands Miles Must</string>
+    <string name="matter">It Doesn\'t Matter Where You Go. You\'ll </string>
+    <string name="go">Discover New Things.</string>
+    <string name="want">If You Want To Learn About Yourself,</string>
+    <string name="travel">Travel. You\'ll Learn Yourself</string>
+    <string name="begin">Begin With A Single Step.</string>
+    <string name="previous">Previous</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
+    <string name="augmented_reality">Augmented Reality</string>
+    <string name="heritages_in">Heritages In</string>
+    <string name="model_name">Model Name</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_glb">Select GLB</string>
+    <string name="update_storage">Update Storage</string>
+</resources>

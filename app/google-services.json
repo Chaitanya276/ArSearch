@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299353875512",
+    "project_id": "ar-trial-2",
+    "storage_bucket": "ar-trial-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299353875512:android:097c9fcb7dec81af3032cd",
+        "android_client_info": {
+          "package_name": "com.android.artrial2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299353875512-cm7qlc2oa5oj2f9bo3kf0k963fgqk5ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQlt4xnFmHv2MrRThSQxppoWEdY_PPWRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299353875512-cm7qlc2oa5oj2f9bo3kf0k963fgqk5ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

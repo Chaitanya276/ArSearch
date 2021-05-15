@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".fragments.introduction.IntroFragment1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/worldImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/explore_the_world"
+            android:elevation="10dp"
+            android:src="@drawable/world" />
+
+        <TextView
+            android:id="@+id/introOneSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/next_arrow"
+            android:text="@string/skip"
+            android:textColor="@color/intro_skip"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/worldImage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            android:text="@string/explore_the_world"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            android:text="@string/journey"
+            android:textColor="@color/intro_desc"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/heading3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading2"
+            android:layout_marginStart="20dp"
+            android:elevation="10dp"
+            android:text="@string/begin"
+            android:textColor="@color/intro_desc"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/slider_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading3"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/intro1_img_page1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/page_selected" />
+
+            <ImageView
+                android:id="@+id/intro1_img_page2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/page_unselected" />
+
+            <ImageView
+                android:id="@+id/intro1_img_page3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/page_unselected" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/slider_dots"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/intro_one" />
+
+        <!--<Button
+            android:id="@+id/btnIntroOneSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:text="@string/skip"
+            android:textAllCaps="false"
+            android:textSize="20sp" />-->
+
+        <Button
+            android:id="@+id/btnIntroOneNext"
+            android:layout_width="@dimen/intro_button"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+
+        <!-- <ImageView
+             android:id="@+id/intro1Image"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_below="@id/slider_dots"
+             android:layout_alignParentBottom="true"
+             android:src="@drawable/intro_one" />-->
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#99DDCC"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/heritageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:visibility="gone"
+            android:hint="@string/heritage_name"
+            android:layout_marginTop="200dp"/>
+
+        <Button
+            android:id="@+id/btnGetHeritageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/start_ar_scene"
+            android:layout_marginEnd="40dp"/>
+
+
+        <Button
+            android:id="@+id/fetchDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/fetch_data"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="40dp"/>
+        <EditText
+            android:id="@+id/fileNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/enter_file_name"/>
+        <TextView
+            android:id="@+id/fileNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="File Name: "
+            android:textColor="@color/black"
+            android:gravity="center_horizontal" />
+        <Button
+            android:id="@+id/updateDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:enabled="false"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/update_database"
+            android:layout_marginEnd="40dp"/>
+
+        <Button
+            android:id="@+id/imageSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/select_image"
+            android:layout_marginEnd="40dp"/>
+        <Button
+            android:id="@+id/imageUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/upload_image"
+            android:layout_marginEnd="40dp"/>
+        <Button
+            android:id="@+id/glbSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/select_glb"
+            android:layout_marginEnd="40dp"/>
+        <Button
+            android:id="@+id/glbbUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="#99DDCC"
+            android:backgroundTint="@color/white"
+            android:text="@string/upload_glb"
+            android:layout_marginEnd="40dp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
